@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <p>input</p>
+        <div class="wrap">
+            <input type="text" id="enigma-input">
+            <button type="button" id="clear">clear</button>
+        </div>
+        <p>output</p>
+        <input type="text" id="enigma-output" disabled>
+
+        <div class="rotors">
+            <div class="rotor--wrap rotor--three">
+                <span class="rotor-name">&#8546;</span>
+                <select id="rotor3" class="rotor--init"></select>
+            </div>
+            <div class="rotor--wrap rotor--two">
+                <span class="rotor-name">&#8545;</span>
+                <select id="rotor2" class="rotor--init"></select>
+            </div>
+            <div class="rotor--wrap rotor--one">
+                <span class="rotor-name">&#8544;</span>
+                <select id="rotor1" class="rotor--init"></select>
+            </div>
+        </div>
+        <p>работает как Энигма из <a href="https://habr.com/ru/post/217331/" target="_blank">этой
+                статьи</a></p>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="enigma.js"></script>
+
+</body>
+
+</html>

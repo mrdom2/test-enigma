@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap {
+    padding-left: 50px;
+}
+
+.rotors {
+    display: flex;
+}
+
+.rotor-name {
+    display: block;
+}
+
+.rotor--wrap {
+    width: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rotor--wrap select {
+    width: 50px;
+    text-align: center;
+}
